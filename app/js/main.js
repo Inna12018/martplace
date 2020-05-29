@@ -6,6 +6,13 @@ $(function(){
         readOnly: true
       });  
 
+      $('.template__slider-inner').slick({
+        prevArrow: '<button type="button" class="slick-arrow slick-arrow--prev"><span class="lnr lnr-chevron-left"></span></button>',
+        nextArrow: '<button type="button" class="slick-arrow slick-arrow--next"><span class="lnr lnr-chevron-right"></span></button>',
+        appendArrows: '.arrows-wrap'
+
+    });
+
 
 
 $(".js-range-slider").ionRangeSlider({
