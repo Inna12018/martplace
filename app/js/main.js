@@ -24,5 +24,6 @@ $(".js-range-slider").ionRangeSlider({
   grid: true
 });
 
+
 var mixer = mixitup('.products__inner-mix-box');  
 });
